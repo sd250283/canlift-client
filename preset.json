@@ -1,0 +1,19 @@
+{
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-typescript": {
+      "classComponent": false,
+      "useTsWithBabel": true
+    },
+    "@vue/cli-plugin-router": {
+      "historyMode": true
+    },
+    "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard-with-typescript",
+      "lintOn": ["save"]
+    }
+  },
+  "vueVersion": "3"
+}
